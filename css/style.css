@@ -82,7 +82,7 @@ ul li a {
   text-decoration: none;
   display:absolute;
   display:block;
-  width:210px;
+  width: 245px;
   height:80px;
   background: #fff;
   text-align:left;
@@ -232,6 +232,10 @@ h2{
   margin-bottom:30px;
 }
 
+.touch-text {
+    font-size: 65px;
+}
+
 .btn-default{
   background-color:white;
   border-color:black;
@@ -252,4 +256,13 @@ h2{
 canvas {
 	cursor: crosshair;
 	display: block;
+}
+
+
+.button-con {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }

@@ -32,7 +32,7 @@ var canvas = document.getElementById( 'canvas' ),
 		mx,
 		// mouse y coordinate
 		my;
-		
+
 // set canvas dimensions
 canvas.width = cw;
 canvas.height = ch;
@@ -59,6 +59,8 @@ function Firework( sx, sy, tx, ty ) {
 	// starting coordinates
 	this.sx = sx;
 	this.sy = sy;
+
+
 	// target coordinates
 	this.tx = tx;
 	this.ty = ty;
@@ -86,23 +88,23 @@ Firework.prototype.update = function( index ) {
 	this.coordinates.pop();
 	// add current coordinates to the start of the array
 	this.coordinates.unshift( [ this.x, this.y ] );
-	
+
 	// cycle the circle target indicator radius
 	if( this.targetRadius < 8 ) {
 		this.targetRadius += 0.3;
 	} else {
 		this.targetRadius = 1;
 	}
-	
+
 	// speed up the firework
 	this.speed *= this.acceleration;
-	
+
 	// get the current velocities based on angle and speed
 	var vx = Math.cos( this.angle ) * this.speed,
 			vy = Math.sin( this.angle ) * this.speed;
 	// how far will the firework have traveled with velocities applied?
 	this.distanceTraveled = calculateDistance( this.sx, this.sy, this.x + vx, this.y + vy );
-	
+
 	// if the distance traveled, including velocities, is greater than the initial distance to the target, then the target has been reached
 	if( this.distanceTraveled >= this.distanceToTarget ) {
 		createParticles( this.tx, this.ty );
@@ -123,7 +125,7 @@ Firework.prototype.draw = function() {
 	ctx.lineTo( this.x, this.y );
 	ctx.strokeStyle = 'hsl(' + hue + ', 100%, ' + this.brightness + '%)';
 	ctx.stroke();
-	
+
 	ctx.beginPath();
 	// draw the target for this firework with a pulsing circle
 	ctx.arc( this.tx, this.ty, this.targetRadius, 0, Math.PI * 2 );
@@ -168,7 +170,7 @@ Particle.prototype.update = function( index ) {
 	this.y += Math.sin( this.angle ) * this.speed + this.gravity;
 	// fade out the particle
 	this.alpha -= this.decay;
-	
+
 	// remove the particle once the alpha is low enough, based on the passed in index
 	if( this.alpha <= this.decay ) {
 		particles.splice( index, 1 );
@@ -198,10 +200,10 @@ function createParticles( x, y ) {
 function loop() {
 	// this function will run endlessly with requestAnimationFrame
 	requestAnimFrame( loop );
-	
+
 	// increase the hue to get different colored fireworks over time
 	hue += 0.5;
-	
+
 	// normally, clearRect() would be used to clear the canvas
 	// we want to create a trailing effect though
 	// setting the composite operation to destination-out will allow us to clear the canvas at a specific opacity, rather than wiping it entirely
@@ -212,21 +214,21 @@ function loop() {
 	// change the composite operation back to our main mode
 	// lighter creates bright highlight points as the fireworks and particles overlap each other
 	ctx.globalCompositeOperation = 'lighter';
-	
+
 	// loop over each firework, draw it, update it
 	var i = fireworks.length;
 	while( i-- ) {
 		fireworks[ i ].draw();
 		fireworks[ i ].update( i );
 	}
-	
+
 	// loop over each particle, draw it, update it
 	var i = particles.length;
 	while( i-- ) {
 		particles[ i ].draw();
 		particles[ i ].update( i );
 	}
-	
+
 	// launch fireworks automatically to random coordinates, when the mouse isn't down
 	if( timerTick >= timerTotal ) {
 		if( !mousedown ) {
@@ -237,7 +239,7 @@ function loop() {
 	} else {
 		timerTick++;
 	}
-	
+
 	// limit the rate at which fireworks get launched when mouse is down
 	if( limiterTick >= limiterTotal ) {
 		if( mousedown ) {
