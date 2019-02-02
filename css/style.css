@@ -55,12 +55,12 @@ body{
   padding:0;
 } */
 
-ul li {
+.weird ul li {
   list-style:none;
   margin:0 5px;
 }
 
-ul li a .fa {
+.weird ul li a .fa {
   font-size: 40px;
   color: #262626;
   line-height:80px;
@@ -68,7 +68,7 @@ ul li a .fa {
   padding-right: 14px;
 }
 
-ul li a span {
+.weird ul li a span {
   padding:0;
   margin:0;
   position:absolute;
@@ -78,7 +78,7 @@ ul li a span {
   transition: .5s;
 }
 
-ul li a {
+.weird ul li a {
   text-decoration: none;
   display:absolute;
   display:block;
@@ -92,7 +92,7 @@ ul li a {
   box-shadow: -20px 20px 10px rgba(0,0,0,.5);
 }
 
-ul li a:before {
+.weird ul li a:before {
   content: '';
   position: absolute;
   top:10px;
@@ -104,7 +104,7 @@ ul li a:before {
   transform: rotate(0deg) skewY(-45deg);
 }
 
-ul li a:after {
+.weird ul li a:after {
   content: '';
   position: absolute;
   bottom:-20px;
@@ -116,56 +116,56 @@ ul li a:after {
   transform: rotate(0deg) skewX(-45deg);
 }
 
-ul li a:hover {
+.weird ul li a:hover {
   transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
   box-shadow: -50px 50px 50px rgba(0,0,0,.5);
 }
 
-ul li:hover .fa {
+.weird ul li:hover .fa {
   color:#fff;
 }
 
-ul li:hover span {
+.weird ul li:hover span {
   color:#fff;
 }
 
-ul li:hover:nth-child(1) a{
+.weird ul li:hover:nth-child(1) a{
   background: #3b5998;
 }
-ul li:hover:nth-child(1) a:before{
+.weird ul li:hover:nth-child(1) a:before{
   background: #365492;
 }
-ul li:hover:nth-child(1) a:after{
+.weird ul li:hover:nth-child(1) a:after{
   background: #4a69ad;
 }
 
-ul li:hover:nth-child(2) a{
+.weird ul li:hover:nth-child(2) a{
   background: #00aced;
 }
-ul li:hover:nth-child(2) a:before{
+.weird ul li:hover:nth-child(2) a:before{
   background: #097aa5;
 }
-ul li:hover:nth-child(2) a:after{
+.weird ul li:hover:nth-child(2) a:after{
   background: #53b9e0;
 }
 
-ul li:hover:nth-child(3) a{
+.weird ul li:hover:nth-child(3) a{
   background: #dd4b39;
 }
-ul li:hover:nth-child(3) a:before{
+.weird ul li:hover:nth-child(3) a:before{
   background: #b33a2b;
 }
-ul li:hover:nth-child(3) a:after{
+.weird ul li:hover:nth-child(3) a:after{
   background: #e66a5a;
 }
 
-ul li:hover:nth-child(4) a{
+.weird ul li:hover:nth-child(4) a{
   background: #e4405f;
 }
-ul li:hover:nth-child(4) a:before{
+.weird ul li:hover:nth-child(4) a:before{
   background: #d81c3f;
 }
-ul li:hover:nth-child(4) a:after{
+.weird ul li:hover:nth-child(4) a:after{
   background: #e46880;
 }
 
