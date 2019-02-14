@@ -273,21 +273,24 @@ canvas.addEventListener( 'mouseup', function( e ) {
 // once the window loads, we are ready for some fireworks!
 window.onload = loop;
 
-// Gotten from a codepen that does this nice scolling of a page
-$(function(){
-    //WOW plugin init
-    new WOW().init();
 
-    //parallax effect for banner
-    (function() {
-        var posY;
-        var image = document.getElementById('parallax');;
-        function paralax() {
-            posY = window.pageYOffset;
-            image.style.top = posY * 0.9 + 'px';
-        }
-        window.addEventListener('scroll', paralax);
-    })();
-});
 
-<!-- Yandex.Metrika counter --> <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter39321480 = new Ya.Metrika({ id:39321480, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/39321480" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+// // <script type="text/javascript"> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter39321480 = new Ya.Metrika({ id:39321480, clickmap:true, trackLinks:true, accurateTrackBounce:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]"){d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/39321480" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+// //
+//
+// // Gotten from a codepen that does this nice scolling of a page
+// $(function(){
+//     //WOW plugin init
+//     new WOW().init();
+//
+//     //parallax effect for banner
+//     (function() {
+//         var posY;
+//         var image = document.getElementById('parallax');;
+//         function paralax() {
+//             posY = window.pageYOffset;
+//             image.style.top = posY * 0.9 + 'px';
+//         }
+//         window.addEventListener('scroll', paralax);
+//     })();
+// });
