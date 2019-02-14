@@ -11,10 +11,10 @@
   color: rgb(0,127,178)
 }
 .block{
-  /* box-shadow: 4px 4px 7px #333; */
+  box-shadow: 4px 4px 7px #333;
   overflow: hidden;
   position: relative;
-  /* margin-bottom: 10%; */
+  margin-bottom: 10%;
   opacity: .8;
   padding:0;
   width:100%;
@@ -182,7 +182,6 @@ body{
   padding-top:5%;
   height: 1000px;
 
-
 }
 .pageTwo {
   background:url("https://images.unsplash.com/photo-1516864351034-bf734fd2c77e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=25326103b13244f6d6865088b5dcfed2");
@@ -296,7 +295,7 @@ canvas {
 /*works*/
 
 .works {
-    padding-bottom: 3%;
+    /* padding-bottom: 3%; */
     /* background: #fff; */
 }
 .works-thumb {
