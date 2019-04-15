@@ -288,8 +288,8 @@ h2{
 }
 
 canvas {
-	/* cursor: crosshair;
-	display: block; */
+	cursor: crosshair;
+	display: block;
     position: absolute;
 }
 
