@@ -413,7 +413,7 @@ let counter = 0;
 c2.width = c3.width = window.innerWidth;
 c2.height = c3.height = window.innerHeight;
 ctx1.fillStyle = '#000';
-const text = 'Akhtar Uz Zaman';
+const text = 'Akhtar Zaman';
 let textWidth = 99999999;
 
 while (textWidth > window.innerWidth) {
