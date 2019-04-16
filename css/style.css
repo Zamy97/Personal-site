@@ -194,6 +194,7 @@ body{
   /* background-position: 20px; */
   background-size: contain;
   height: 670px;
+  margin-top: 120px;
 }
 
 /* Css that designs the text on the about. Got it from another person on codepen. */
@@ -288,7 +289,7 @@ h2{
 }
 
 canvas {
-	cursor: crosshair;
+	/* cursor: crosshair; */
 	display: block;
     position: absolute;
 }
