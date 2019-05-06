@@ -182,7 +182,7 @@ body{
   background: url("https://images.unsplash.com/photo-1537517812565-2d44597c3eff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=0a059435c033ecd95d33c9cf9a7b7326");
   background-size: cover;
   /* background-position: 20px; */
-  background-size: contain;
+  /* background-size: contain; */
   padding-bottom: 30%;
   padding-top:5%;
   height: 800px;
@@ -192,12 +192,12 @@ body{
   background:url("https://images.unsplash.com/photo-1516864351034-bf734fd2c77e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=25326103b13244f6d6865088b5dcfed2");
   background-size: cover;
   /* background-position: 20px; */
-  background-size: contain;
+  /* background-size: contain; */
   height: 670px;
   margin-top: 120px;
 }
 
-/* Css that designs the text on the about. Got it from another person on codepen. */
+/* Css that designs the text on the about. Got it from someone on codepen. */
 .about-content {
     margin-top: 7%;
     font-family: "Lato", serif;
@@ -219,7 +219,7 @@ body{
   background:url("https://images.unsplash.com/photo-1464621922360-27f3bf0eca75?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=ff8a914d4441ad3b0be461ce211af8e2");
   background-size: cover;
   /* background-position: 20px; */
-  background-size: contain;
+  /* background-size: contain; */
   padding-top:5%;
   padding-bottom:20%;
   height: 1000px;
@@ -229,7 +229,7 @@ body{
   background:url("https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=c7dad43cb1f32a45e9623729d2802dc1");
   background-size:cover;
   /* background-position: 20px; */
-  background-size: contain;
+  /* background-size: contain; */
   padding-top:5%;
   padding-bottom:20%;
   height: 500px;
@@ -239,7 +239,7 @@ body{
   background:url("https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=abdbbbf2f5992f24f3cc8d122d6a3fd9");
   background-size: cover;
   /* background-position: 20px; */
-  background-size: contain;
+  /* background-size: contain; */
   padding-top:5%;
   padding-bottom:20%;
   height: 500px;
@@ -256,7 +256,7 @@ body{
   padding-top: 3%
 } */
 
-h1{
+/* h1{
     padding:0;
     margin-top:0px;
     font-size:4.7em;
@@ -265,7 +265,7 @@ h1{
 h2{
   font-size:2em;
   margin-bottom:30px;
-}
+} */
 
 .touch-text {
     font-size: 65px;
