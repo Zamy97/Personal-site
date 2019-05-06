@@ -159,13 +159,13 @@ body{
 }
 
 .weird ul li:hover:nth-child(3) a{
-  background: #dd4b39;
+  background: #555555;
 }
 .weird ul li:hover:nth-child(3) a:before{
-  background: #b33a2b;
+  background: #555555;
 }
 .weird ul li:hover:nth-child(3) a:after{
-  background: #e66a5a;
+  background: #555555;
 }
 
 .weird ul li:hover:nth-child(4) a{
