@@ -169,13 +169,13 @@ body{
 }
 
 .weird ul li:hover:nth-child(4) a{
-  background: #e4405f;
+  background: #0077B5;
 }
 .weird ul li:hover:nth-child(4) a:before{
-  background: #d81c3f;
+  background: #0077B5;
 }
 .weird ul li:hover:nth-child(4) a:after{
-  background: #e46880;
+  background: #0077B5;
 }
 
 .pageOne {
