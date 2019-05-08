@@ -25,7 +25,6 @@
   margin:0;
 
 }
-
 .nav-pills{
   font-size: 1.2em;
   background-color:black;
@@ -63,7 +62,11 @@ body{
   margin:0;
   padding:0;
 } */
-
+/* *******************************************
+*******************************************
+Nice Buttons at the bottom of the page
+*******************************************
+******************************************* */
 .weird ul li {
   list-style:none;
   margin:0 5px;
@@ -178,6 +181,11 @@ body{
   background: #0077B5;
 }
 
+/* *************************************
+*************************************
+          Each page details
+*************************************
+************************************* */
 .pageOne {
   /* background: url("https://images.unsplash.com/photo-1537517812565-2d44597c3eff?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=0a059435c033ecd95d33c9cf9a7b7326"); */
   background-size: cover;
@@ -232,7 +240,7 @@ body{
   /* background-size: contain; */
   padding-top:5%;
   padding-bottom:20%;
-  height: 500px;
+  height: 1000px;
 }
 
 .pageFive {
@@ -310,7 +318,7 @@ canvas {
     /* background: #fff; */
 }
 .works-thumb {
-    height: 250px;
+    height: 350px;
 }
 #work-1 {
     /* background: url("http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/twitch_zpscblks89r.jpg") no-repeat 100%; */
@@ -348,11 +356,11 @@ canvas {
 }
 .block::after {
     left: -50%;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 .block::before {
     right: -50%;
-    transition: 0.5s;
+    transition: 0.9s;
 }
 .block:hover:after {
     left: 0;

@@ -297,7 +297,7 @@
 // });
 
 
-// Testing 1
+// New Fireworks that writes my name on the site
 // CLASSES
 class Shard {
   constructor(x, y, hue) {
